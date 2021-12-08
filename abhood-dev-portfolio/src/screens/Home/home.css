@@ -8,8 +8,9 @@
 .home-left-div {
   display: flex;
   flex-direction: column;
-  justify-content: start;
-  align-items: left;
+  justify-content: center;
+  width: 75%;
+  align-items: center;
 }
 
 .profile-pic {
@@ -17,12 +18,13 @@
   width: 300px;
   border-radius: 200px;
   /* margin-left: 15vw; */
-  margin-top: 10vh;
+  /* margin-top: 10vh; */
 }
 
 .first-name {
   color: #F7F7F7;
   font-size: 100px;
+  margin: 0;
   /* margin-left: 6vw; */
 }
 
@@ -42,7 +44,7 @@
 }
 
 .mage {
-  
+  animation: 3s ease-in 1s infinite reverse both running slidein;
 }
 
 
