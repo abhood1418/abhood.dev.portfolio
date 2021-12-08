@@ -1,11 +1,10 @@
 import './App.css';
+import Home from './screens/Home/home.js';
 
 function App() {
   return (
     <div>
-      <Route path="#">
-        
-      </Route>
+      <Home />
     </div>
   );
 }
