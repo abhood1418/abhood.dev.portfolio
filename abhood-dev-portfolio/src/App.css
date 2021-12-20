@@ -1,1 +1,16 @@
+body {
+  margin: 0;
+  margin-bottom: 0;
+  padding-bottom: 0%;
+  bottom: 0;
+  height: fit-content;
+}
 
+/* .main-div {
+  height: 100vh;
+  margin: 0;
+} */
+
+/* html, body, #root, .App {
+  height: 100%;
+} */

@@ -1,0 +1,28 @@
+.nav-div {
+  background-color: #161616;
+  height: 150px;
+  width: 100vw;
+  display: inline-flex;
+  justify-content: space-between;
+  padding-top: 2vh;
+
+}
+
+.home-link, .home-link-2, .project-link, .about-me-link, .resume-link, .contact-link {
+  text-decoration: none;
+  color: #B7DBE7;
+  font-size: 25px;
+  margin-top: 35px;
+  margin-left: 4vw;
+  padding-right: 4vw;
+}
+
+.home-div-right {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.home-div-left {
+  display: flex;
+  justify-content: flex-start;
+}

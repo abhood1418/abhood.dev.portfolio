@@ -1,9 +1,12 @@
 import profile from "./profile.jpeg";
 import mage from "./mage.png";
+import mage2 from "../../Assets/mage-gif.gif";
+import dance from '../../Assets/dancemage.gif';
 import { Typewriter } from "react-simple-typewriter";
 import { stacks } from "../../services/stacks";
 import Stack from "../../components/Stack/Stack";
 import "./home.css";
+
 
 const Home = () => {
   return (
@@ -38,9 +41,9 @@ const Home = () => {
               <Stack stack={stack} />
             ))}
           </ul> */}
-        <img className="mage" src={mage} />
+        <img src={dance} />
       </div>
-    </div>
+      </div>
   );
 };
 export default Home;
