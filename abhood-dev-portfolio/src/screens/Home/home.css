@@ -118,7 +118,7 @@
 }
 
 .stacks-main-div {
-  background-color: white;
+  background-color: #F8F9FA;
   width: 100%; 
   display: flex;
 }
@@ -127,7 +127,7 @@
   display: block;
   width: 100%;
   margin-top: 15vh;
-  background-color: white;
+  background-color: #F8F9FA;
 }
 
 .desc-main {
@@ -173,7 +173,7 @@
   /* margin-top: 5vh;
   margin-bottom: 12vh; */
   padding: 15px;
-  height: 150px;
+  height: 24vh;
   margin: 5vh;
 }
 
@@ -242,4 +242,9 @@
   text-transform: uppercase;
   vertical-align: middle;
   width: 100%;
+}
+
+.projects-main-title {
+  color: #B7DBE7;
+  font-family: 'Major Mono Display', monospace;
 }

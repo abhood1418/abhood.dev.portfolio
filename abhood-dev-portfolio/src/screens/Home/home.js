@@ -2,8 +2,8 @@ import profile from "./profile.jpeg";
 import mage from "./mage.png";
 import mage2 from "../../Assets/mage-gif.gif";
 import dance from "../../Assets/dancemage.gif";
-import funny from "../../Assets/funnymage.gif"
-import wedding from "../../Assets/weddingphoto.jpeg"
+import funny from "../../Assets/funnymage.gif";
+import wedding from "../../Assets/weddingphoto.jpeg";
 import { Typewriter } from "react-simple-typewriter";
 import AboutMe from "../AboutMe/AboutMe";
 import { stacks } from "../../services/stacks";
@@ -38,11 +38,6 @@ const Home = () => {
         </h2>
       </div>
       <div className="home-right-div">
-        {/* <ul className="tech-stack">
-            {stacks.map((stack) => (
-              <Stack stack={stack} />
-            ))}
-          </ul> */}
         <img src={dance} />
         <hr />
         <hr />
@@ -52,7 +47,6 @@ const Home = () => {
         <hr />
 
         <div className="desc-main">
-          
           <div className="general-about">
             <img src={wedding} className="me-card-img" />
             <p className="about-me-desc">
@@ -63,43 +57,50 @@ const Home = () => {
               innovative applications that inspire and better the lives of
               others!
               <br />
-              <p>
-                If you'd like to know more about me follow the link below!
-              </p>
+              <p>If you'd like to know more about me follow the link below!</p>
             </p>
             <a class="btnfos btnfos-1">
-      <svg>
-        <rect x="0" y="0" fill="none" width="100%" height="100%"/>
-      </svg>
-     Learn More
-    </a> 
+              <svg>
+                <rect x="0" y="0" fill="none" width="100%" height="100%" />
+              </svg>
+              Learn More
+            </a>
           </div>
           <div className="accolades">
             <div className="card1" className="cards">
               <h1 className="Acc-color">5</h1>
               <h4 className="sub-acc-title">Deployed Projects!</h4>
               <p className="acc-desc">
-                Investigate my built projects in the <strong><span className="highlight1">Projects</span></strong> section. 
+                Investigate my built projects in the{" "}
+                <strong>
+                  <span className="highlight1">Projects</span>
+                </strong>{" "}
+                section.
               </p>
             </div>
 
             <div className="card2" className="cards">
-            <h1 className="Acc-color">700+</h1>
+              <h1 className="Acc-color">700+</h1>
               <h4 className="sub-acc-title">Hours Coded!</h4>
               <p className="acc-desc">
-                GA SEI Program, Code Wars, LeetCode, Mammoth Interactive Hello Coding Course, & <span className="highlight1">More.</span>
+                GA SEI Program, Code Wars, LeetCode, Mammoth Interactive Hello
+                Coding Course, & <span className="highlight1">More.</span>
               </p>
             </div>
 
             <div className="card3" className="cards">
-            <h1 className="Acc-color">Current Project</h1>
-              <h4 className="sub-acc-title">Game Masters Ruby on Rails Backend!</h4>
+              <h1 className="Acc-color">Current Project</h1>
+              <h4 className="sub-acc-title">
+                Game Masters Ruby on Rails Backend!
+              </h4>
               <p className="acc-desc">
-                Developing full CRUD backend for Game Masters Project with User Auth and Associations.
+                Developing full CRUD backend for Game Masters Project with User
+                Auth and Associations.
               </p>
             </div>
           </div>
         </div>
+
         <h1 className="about-title">Current Arcane Knowledge Stack:</h1>
       </div>
 
@@ -110,7 +111,12 @@ const Home = () => {
           ))}
         </ul>
       </div>
+          
+      {/* <hr />  */}
 
+      <div className="projects-main-div">
+        <h1 className="projects-main-title">My Projects</h1>
+      </div>
       {/* <AboutMe /> */}
     </div>
   );
