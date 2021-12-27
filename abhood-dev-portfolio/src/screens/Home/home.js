@@ -3,6 +3,7 @@ import mage from "./mage.png";
 import mage2 from "../../Assets/mage-gif.gif";
 import dance from '../../Assets/dancemage.gif';
 import { Typewriter } from "react-simple-typewriter";
+import AboutMe from "../AboutMe/AboutMe";
 import { stacks } from "../../services/stacks";
 import Stack from "../../components/Stack/Stack";
 import "./home.css";
@@ -43,6 +44,7 @@ const Home = () => {
           </ul> */}
         <img src={dance} />
       </div>
+      {/* <AboutMe /> */}
       </div>
   );
 };

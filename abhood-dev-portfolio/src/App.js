@@ -1,5 +1,6 @@
 import "./App.css";
 import Home from "./screens/Home/home.js";
+import AboutMe from "./screens/AboutMe/AboutMe";
 import Layout from "./components/Layout/Layout";
 import { Route, Routes } from "react-router-dom";
 
@@ -9,6 +10,7 @@ function App() {
       <Layout>
         <Routes>
           <Route exact path="/" element={<Home />} />
+          <Route path="/" element={<AboutMe />} />
         </Routes>
       </Layout>
     </div>
