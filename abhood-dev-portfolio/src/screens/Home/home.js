@@ -3,6 +3,9 @@ import mage from "./mage.png";
 import mage2 from "../../Assets/mage-gif.gif";
 import dance from "../../Assets/dancemage.gif";
 import funny from "../../Assets/funnymage.gif";
+import toon from "../../Assets/toonmage.png";
+import sweatmage from "../../Assets/sweatmage.gif";
+import firemage from "../../Assets/firemage.gif";
 import wedding from "../../Assets/weddingphoto.jpeg";
 import { Typewriter } from "react-simple-typewriter";
 import AboutMe from "../AboutMe/AboutMe";
@@ -74,7 +77,7 @@ const Home = () => {
                 Investigate my built projects in the{" "}
                 <strong>
                   <span className="highlight1">Projects</span>
-                </strong>{" "}
+                </strong>
                 section.
               </p>
             </div>
@@ -114,10 +117,15 @@ const Home = () => {
           
       {/* <hr />  */}
 
-      <div className="projects-main-div">
+      <div className="projects-title-div">
+        <img className="sweatmage" src={sweatmage} /> 
         <h1 className="projects-main-title">My Projects</h1>
       </div>
-      {/* <AboutMe /> */}
+      <hr className="whiteruler" />
+
+      <div className="projects-main-div">
+      
+        </div>
     </div>
   );
 };

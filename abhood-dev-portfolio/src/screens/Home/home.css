@@ -248,3 +248,17 @@
   color: #B7DBE7;
   font-family: 'Major Mono Display', monospace;
 }
+
+.whiteruler {
+  background-color: white;
+  width: 100%;
+}
+
+.projects-title-div {
+  display: inline-flex;
+  padding-top: 5vh;
+}
+
+.sweatmage {
+  padding-right: 1vw;
+}
