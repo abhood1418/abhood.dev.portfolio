@@ -339,6 +339,9 @@
   .icon-div {
     margin-top: 4vh;
   }
+  .first-name, .last-name {
+    font-size: 80px;
+  }
 }
 
 @media only screen and (max-width: 720px) {
@@ -438,5 +441,28 @@
   .contact-sub-sub {
     text-align: center;
     width: 100%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .home-left-div {
+    height: 100vh;
+  }
+  .general-about {
+    width: 70vw;
+  }
+  .cards {
+    width: 70vw;
+  }
+  .contact-sub-sub {
+    /* width: 70vw; */
+    margin-bottom: 0;
+    margin-right: 0;
+  }
+  .icon-div {
+    margin-top: 4vh;
+  }
+  .first-name, .last-name {
+    font-size: 80px;
   }
 }
