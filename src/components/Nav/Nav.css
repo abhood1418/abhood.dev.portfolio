@@ -32,6 +32,13 @@
   }
 }
 
+@media only screen and (max-width: 720px) {
+  .home-link, .home-link-2, .project-link, .about-me-link, .resume-link, .contact-link {
+    margin-left: 0vw;
+    font-size: 24px;
+  }
+}
+
 @media only screen and (max-width: 414px) {
   home-link, .home-link-2, .project-link, .about-me-link, .resume-link, .contact-link {
     margin-left: 0;
