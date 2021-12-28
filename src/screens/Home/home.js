@@ -71,7 +71,7 @@ const Home = () => {
               <br />
               <p>If you'd like to know more about me follow the link below!</p>
             </p>
-            <a class="btnfos btnfos-1">
+            <a href="/about" class="btnfos btnfos-1">
               <svg>
                 <rect x="0" y="0" fill="none" width="100%" height="100%" />
               </svg>
