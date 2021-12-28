@@ -4,7 +4,10 @@ import mage2 from "../../Assets/mage-gif.gif";
 import dance from "../../Assets/dancemage.gif";
 import funny from "../../Assets/funnymage.gif";
 import toon from "../../Assets/toonmage.png";
+import gamemaster from "../../Assets/gamemaster.png";
+import imporium from "../../Assets/imporium.png";
 import sweatmage from "../../Assets/sweatmage.gif";
+import nevermore from "../../Assets/nevermore.png";
 import firemage from "../../Assets/firemage.gif";
 import wedding from "../../Assets/weddingphoto.jpeg";
 import { Typewriter } from "react-simple-typewriter";
@@ -74,9 +77,10 @@ const Home = () => {
               <h1 className="Acc-color">5</h1>
               <h4 className="sub-acc-title">Deployed Projects!</h4>
               <p className="acc-desc">
-                Investigate my built projects in the{" "}
+                Investigate my built projects in the
+                <br />
                 <strong>
-                  <span className="highlight1">Projects</span>
+                  <span className="highlight1"> Projects </span>
                 </strong>
                 section.
               </p>
@@ -114,18 +118,117 @@ const Home = () => {
           ))}
         </ul>
       </div>
-          
+
       {/* <hr />  */}
 
       <div className="projects-title-div">
-        <img className="sweatmage" src={sweatmage} /> 
+        <img className="sweatmage" src={sweatmage} />
         <h1 className="projects-main-title">My Projects</h1>
       </div>
       <hr className="whiteruler" />
 
+      {/* Card 1 */}
+
       <div className="projects-main-div">
-      
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img src={imporium} className="imporium" />
+            </div>
+            <div class="flip-card-back">
+              <h1>Imporium</h1>
+              <p className="proj-pad">
+                Easy to use online market place for NFT's of the etherium
+                network. Also a platform for creator to mint their own NFT's.
+              </p>
+              <p className="proj-pad">
+                Built with: React, React Router, JavaScript, CSS3, Express.js,
+                Mongoose, Heroku, Netlify, & MongoDB.
+              </p>
+              <a className="ref-link" href="https://imporium.netlify.app/">
+                Live Site
+              </a>
+              <a
+                className="ref-link"
+                href="https://github.com/abhood1418/imporium"
+              >
+                GitHub
+              </a>
+            </div>
+          </div>
         </div>
+      </div>
+
+      {/* Card 2 */}
+
+      <div className="projects-main-div">
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img src={gamemaster} className="imporium" />
+            </div>
+            <div class="flip-card-back">
+              <h1>Game Masters</h1>
+              <p className="proj-pad">
+                An app where Game Masters from all TTRPGs can gather to share
+                and receive feedback on their game design ideas.{" "}
+              </p>
+              <p className="proj-pad">
+                Built with: React, React Router, Google AirTable, JavaScript,
+                Bootstrap, MUI, CSS3, & Netlify.
+              </p>
+              <a
+                className="ref-link"
+                href="https://modest-turing-486509.netlify.app/"
+              >
+                Live Site
+              </a>
+              <a
+                className="ref-link"
+                href="https://github.com/abhood1418/Game-Masters"
+              >
+                GitHub
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Card 3 */}
+
+      <div className="projects-main-div">
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img src={nevermore} className="imporium" />
+            </div>
+            <div class="flip-card-back">
+              <h1>Nevermore</h1>
+              <p className="proj-pad">
+                An App for writers to meet, share, compete, and inspire one
+                another as well as host collections of their own creations.
+              </p>
+              <p className="proj-pad">
+                Built with: Ruby on Rails, React, JavaScript, SASS, CSS3, Heroku,
+                & Netlify.
+              </p>
+              <a
+                className="ref-link"
+                href="https://silly-blackwell-8fd80c.netlify.app/"
+              >
+                Live Site
+              </a>
+              <a
+                className="ref-link"
+                href="https://github.com/abhood1418/Nevermore"
+              >
+                GitHub
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr className="whiteruler" />
     </div>
   );
 };
