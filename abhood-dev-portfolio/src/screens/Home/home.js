@@ -4,12 +4,17 @@ import mage2 from "../../Assets/mage-gif.gif";
 import dance from "../../Assets/dancemage.gif";
 import funny from "../../Assets/funnymage.gif";
 import toon from "../../Assets/toonmage.png";
+import mail from "../../Assets/mail.png";
+import linked from "../../Assets/linked.png";
+import git from "../../Assets/git.png";
+import resume from "../../Assets/resumepic.png";
 import coolmage from "../../Assets/coolmage.png";
 import gamemaster from "../../Assets/gamemaster.png";
 import imporium from "../../Assets/imporium.png";
 import sweatmage from "../../Assets/sweatmage.gif";
 import nevermore from "../../Assets/nevermore.png";
 import firemage from "../../Assets/firemage.gif";
+import resumepdf from "../../Assets/Andrew Hood.pdf";
 import wedding from "../../Assets/weddingphoto.jpeg";
 import { Typewriter } from "react-simple-typewriter";
 import AboutMe from "../AboutMe/AboutMe";
@@ -122,7 +127,7 @@ const Home = () => {
 
       {/* <hr />  */}
 
-      <div id="projects" className="projects-title-div" >
+      <div id="projects" className="projects-title-div">
         <img className="sweatmage" src={sweatmage} />
         <h1 className="projects-main-title">My Projects</h1>
       </div>
@@ -210,8 +215,8 @@ const Home = () => {
                 another as well as host collections of their own creations.
               </p>
               <p className="proj-pad">
-                Built with: Ruby on Rails, React, JavaScript, SASS, CSS3, Heroku,
-                & Netlify.
+                Built with: Ruby on Rails, React, JavaScript, SASS, CSS3,
+                Heroku, & Netlify.
               </p>
               <a
                 className="ref-link"
@@ -230,20 +235,52 @@ const Home = () => {
         </div>
       </div>
       <hr className="whiteruler" />
-      
+
       <div className="contact-main-div">
         <div id="contact" className="contact-title">
           Contact Me
         </div>
-      <hr />
+        <hr />
 
         <div className="contact-main-body">
           <div className="contact-card-main">
-            <div className="contact-sub-title">Want to help me earn experience and level up?</div>
+            <div className="contact-sub-title">
+              Want to earn experience and level up with me? 
+              <br />
+              <p className="contact-sub-sub">Check out my Links Below or contact me directly! I would love to meet and work together!</p>
+              <div className="contact-card">
+                <div className="icon-div">
+                  
+                  <div>
+                    <a href="mailto:abhooddirect@gmail.com"><img className="icons" src={mail} /></a>
+                    <p className="icon-text">Email Me</p>
+                  </div>
+                  
+                  <div>
+                    <a href="https://www.linkedin.com/in/andrew-b-hood/"><img className="icons" src={linked} /></a>
+                    <p className="icon-text">LinkedIn</p>
+                  </div>
+                  
+                  <div>
+                    <a href="https://github.com/abhood1418"><img className="icons" src={git} /></a>
+                    <p className="icon-text">GitHub</p>
+                  </div>
+                  
+                  <div>
+                    <a href={resumepdf} download><img className="icons" src={resume} /></a>
+                    <p className="icon-text">Resume</p>
+                  </div>
+                  
+                </div>
+                
+              </div>
+            </div>
           </div>
-        <img className="coolmage" src={coolmage} />
+          <div className="contact-mage-div">
+            <img className="coolmage" src={coolmage} />
+          </div>
+        </div>
       </div>
-</div>
     </div>
   );
 };
