@@ -4,6 +4,7 @@ import mage2 from "../../Assets/mage-gif.gif";
 import dance from "../../Assets/dancemage.gif";
 import funny from "../../Assets/funnymage.gif";
 import toon from "../../Assets/toonmage.png";
+import coolmage from "../../Assets/coolmage.png";
 import gamemaster from "../../Assets/gamemaster.png";
 import imporium from "../../Assets/imporium.png";
 import sweatmage from "../../Assets/sweatmage.gif";
@@ -121,7 +122,7 @@ const Home = () => {
 
       {/* <hr />  */}
 
-      <div className="projects-title-div">
+      <div id="projects" className="projects-title-div" >
         <img className="sweatmage" src={sweatmage} />
         <h1 className="projects-main-title">My Projects</h1>
       </div>
@@ -229,6 +230,20 @@ const Home = () => {
         </div>
       </div>
       <hr className="whiteruler" />
+      
+      <div className="contact-main-div">
+        <div id="contact" className="contact-title">
+          Contact Me
+        </div>
+      <hr />
+
+        <div className="contact-main-body">
+          <div className="contact-card-main">
+            <div className="contact-sub-title">Want to help me earn experience and level up?</div>
+          </div>
+        <img className="coolmage" src={coolmage} />
+      </div>
+</div>
     </div>
   );
 };

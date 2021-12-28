@@ -16,9 +16,9 @@ const Nav = () => {
         <a href="#about-me" className="about-me-link">
         About Me
         </a>
-        <Link to="/projects" className="project-link">
+        <a href="#projects" className="project-link">
           Projects
-        </Link>
+        </a>
         <Link to="/contact" className="contact-link">
           Contact Me
         </Link>

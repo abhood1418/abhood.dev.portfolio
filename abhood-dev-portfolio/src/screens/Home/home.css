@@ -340,3 +340,29 @@
   padding-left: .7vw;
   padding-right: .7vw;
 }
+
+/* -------------------Contact--------------------------- */
+
+.contact-main-div {
+  background-color: #F8F9FA;
+  width: 100%;
+  text-align: center;
+}
+
+.contact-title {
+  font-family: 'Major Mono Display', monospace;
+  filter: drop-shadow(0 0 0.95rem #2bc4f7);
+  margin-top: 2vh;
+  font-size: 2em;
+  margin-bottom: 2vh;
+}
+
+.contact-main-body {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 5vh;
+}
+
+.coolmage {
+  transform: scaleX(-1);
+}
