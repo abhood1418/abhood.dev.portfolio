@@ -50,7 +50,7 @@ const Home = () => {
         </h2>
       </div>
       <div className="home-right-div">
-        <img src={dance} />
+        <img className="dancemage" src={dance} />
         <hr />
         <hr />
       </div>
@@ -62,7 +62,7 @@ const Home = () => {
           <div className="general-about">
             <img src={wedding} className="me-card-img" />
             <p className="about-me-desc">
-              I am a Software Engineer and graduate of General Assembly's
+              I'm a Software Engineer and graduate of General Assembly's
               Software Engineering Immersive program, where I developed my
               JavaScript, React, Ruby on Rails, and other technical skills. I am
               driven and passionate about building unique, creative, and
