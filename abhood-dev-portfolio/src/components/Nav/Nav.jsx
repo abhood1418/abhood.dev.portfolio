@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import "./Nav.css";
+import resumepdf from "../../Assets/Andrew Hood.pdf"
 
 const Nav = () => {
   return (
@@ -19,12 +20,12 @@ const Nav = () => {
         <a href="#projects" className="project-link">
           Projects
         </a>
-        <Link to="/contact" className="contact-link">
+        <a href="#contact" className="contact-link">
           Contact Me
-        </Link>
-        <Link to="/resume" className="resume-link">
+        </a>
+        <a className="contact-link" href={resumepdf} download>
           Resume
-        </Link>
+        </a>
       </div>
     </div>
   );
