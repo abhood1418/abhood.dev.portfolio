@@ -20,6 +20,7 @@ import { Typewriter } from "react-simple-typewriter";
 import AboutMe from "../AboutMe/AboutMe";
 import { stacks } from "../../services/stacks";
 import Stack from "../../components/Stack/Stack";
+import { Link } from "react-router-dom";
 import "./home.css";
 
 const Home = () => {
@@ -71,12 +72,12 @@ const Home = () => {
               <br />
               <p>If you'd like to know more about me follow the link below!</p>
             </p>
-            <a href="/about" class="btnfos btnfos-1">
+            <Link to="/about" class="btnfos btnfos-1">
               <svg>
                 <rect x="0" y="0" fill="none" width="100%" height="100%" />
               </svg>
               Learn More
-            </a>
+            </Link>
           </div>
           <div className="accolades">
             <div className="card1" className="cards">
