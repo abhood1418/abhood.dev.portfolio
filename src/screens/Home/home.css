@@ -465,4 +465,8 @@
   .first-name, .last-name {
     font-size: 80px;
   }
+  .ref-link {
+    margin-bottom: 5vh;
+    top: 1.4vh;
+  }
 }
