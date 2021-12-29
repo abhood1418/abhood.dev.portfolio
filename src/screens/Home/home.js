@@ -109,7 +109,7 @@ const Home = () => {
               </h4>
               <p className="acc-desc">
                 Developing full CRUD backend for Game Masters Project with User
-                Auth and Associations.
+                Authentication and Associations.
               </p>
             </div>
           </div>
@@ -130,7 +130,7 @@ const Home = () => {
 
       <div id="projects" className="projects-title-div">
         <img className="sweatmage" src={sweatmage} />
-        <h1 className="projects-main-title">My Projects</h1>
+        <h1 className="projects-main-title">my projects</h1>
       </div>
       <hr className="whiteruler" />
 
@@ -239,7 +239,7 @@ const Home = () => {
 
       <div className="contact-main-div">
         <div id="contact" className="contact-title">
-          Contact Me
+          contact Me
         </div>
         <hr />
 
@@ -248,7 +248,7 @@ const Home = () => {
             <div className="contact-sub-title">
               Want to earn experience and level up with me? 
               <br />
-              <p className="contact-sub-sub">Check out my Links Below or contact me directly! I would love to meet and work together!</p>
+              <p className="contact-sub-sub">Check out my links below or contact me directly! I would love to meet and work together!</p>
               <div className="contact-card">
                 <div className="icon-div">
                   
